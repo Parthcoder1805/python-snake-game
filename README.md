@@ -6,7 +6,10 @@ This project was created while learning Object-Oriented Programming (OOP) in Pyt
 ## Features
 
 - 🎮 Press Space to Start
-- ⏸ Pause and Resume using P
+- ⏸️ Pause and Resume using P
+- 🔄 Restart Game using R
+- 🚪 Exit Game using Esc
+- ❤️ "Thanks for Playing!" exit screen
 - 🍎 Food Collection
 - 📈 Live Score Counter
 - 🐍 Snake Growth
@@ -29,15 +32,17 @@ This project was created while learning Object-Oriented Programming (OOP) in Pyt
 - 🎮 Space - Start Game
 - ⏸️ P - Pause / Resume
 - 🔄 R - Restart Game
+- ❌ Esc - Exit Game
 
 ## Future Improvements
 
-- Restart Game
-- High Score System
-- Difficulty Levels
-- Sound Effects
+- 🏆 High Score System
+- ⚡ Difficulty Levels
+- 🔊 Sound Effects
+- 🍏 Special Food Items
+- 🎨 Better UI and Animations
 
-This project is part of my Python learning journey through the **100 Days of Code** course by Angela Yu, with additional features implemented independently.
+This project is part of my Python learning journey through the **100 Days of Code** course by Angela Yu. Along with the tutorial, I implemented additional features such as a start screen, pause/resume, restart functionality, and a custom exit screen.
 
 ## Author
 
