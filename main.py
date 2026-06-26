@@ -51,6 +51,19 @@ def restart_game():
 
     scoreboard.start_message()
 
+def close_game():
+    global game_is_on
+    game_is_on = False
+    screen.bye()
+
+
+def exit_game():
+    scoreboard.clear()
+    scoreboard.goto(0, 0)
+    scoreboard.write("Thanks for Playing!", align="center", font=("Courier", 24, "bold"))
+    screen.ontimer(close_game, 2000)
+
+
 
 
 screen.listen()
@@ -61,6 +74,7 @@ screen.onkey(key = "Right", fun = snake.right)
 screen.onkey(key = "space", fun = start_game)
 screen.onkey(key = "p", fun = pause_game)
 screen.onkey(key = "r", fun = restart_game)
+screen.onkey(key = "Escape", fun = exit_game)
 
 
 while game_is_on:
@@ -93,6 +107,3 @@ while game_is_on:
 
     #if head collides with any segment in the tail:
     #trigger game_over
-
-
-screen.exitonclick()
