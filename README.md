@@ -14,6 +14,7 @@ This project was created while learning Object-Oriented Programming (OOP) in Pyt
 - 📈 Live Score Counter
 - 🐍 Snake Growth
 - 💥 Game Over on Wall or Tail Collision
+- 🏆 Persistent High Score using File Handling
 
 ## Technologies Used
 
@@ -36,7 +37,6 @@ This project was created while learning Object-Oriented Programming (OOP) in Pyt
 
 ## Future Improvements
 
-- 🏆 High Score System
 - ⚡ Difficulty Levels
 - 🔊 Sound Effects
 - 🍏 Special Food Items
